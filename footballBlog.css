@@ -6,12 +6,13 @@
 
 .jumbotron p{
 	background-color: rgba(255, 255, 255, 0.75);
+	font-weight: bold;
 	text-align: center;
 	border-radius: 25px;
 }
 
 .jumbotron h1{
-	background-color: rgba(0, 0, 0, 0.75);
+	background-color: rgba(0, 0, 0, 0.88);
 	border-radius: 25px;
 }
 
@@ -27,29 +28,41 @@ body{
 	padding-top: 70px;
 	font-family: 'Source Sans Pro', sans-serif;
 	padding-bottom: 30px;
-	background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.siriusxm.com%2Fchannels%2Fsiriusxm-nfl-radio&psig=AOvVaw0KWtFdLA2EfOV4gtk876-P&ust=1623555103393000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNia-6-VkfECFQAAAAAdAAAAABAV");
+	background-image: url("https://townsquare.media/site/396/files/2018/09/Football-Field.jpg");
+	
+	/* Background image doesn’t tile */
+	background-repeat: no-repeat;
+
+	/* Background image is fixed in the viewport so that it doesn’t move when
+	the content’s height is greater than the image’s height */
+	background-attachment: fixed;
+
+	/* This is what makes the background image rescale based
+	on the container’s size */
+	background-size: cover;
 }
 
 .quote{
-	border-left: 3px solid #ff8000;
+	border-left: 3px solid #910202;
 	padding-left: 5px;
 }
 
 .last{
-	border-right: 3px solid #ff8000;
+	border-right: 3px solid #910202;
 	padding-right: 5px;	
 }
 
 .date{
-	color: #3498db;
+	color: #910202;
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
 }
 
 .date2{
-	color: #3498db;
+	color: wheat;
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
+	text-align: center;
 	font-size: 2.0rem;	
 }
 
@@ -58,12 +71,12 @@ body{
 }
 
 h2{
-	color: #2c3e50;
+	color: #910202;
 	font-size: 2.0rem;
 }
 
 h1{
-	color: #ff8000;
+	color: wheat;
 	text-align: center;
 	margin-bottom: 20px;
 }
@@ -73,10 +86,11 @@ h1{
 	padding: 20px;
 	margin: 20px auto;
 	border-radius: 25px;
+	background-color: wheat;
 }
 
 .border2{
-	border: 3px solid #ff8000;
+	border: 3px solid #910202;
 	padding: 20px;
 	margin: 20px auto;
 	border-radius: 25px;	
@@ -84,8 +98,12 @@ h1{
 
 .center{
 	text-align: center;
-	border-left: 5px solid #ff8000;
-	border-right: 5px solid #ff8000;
+	color: rgba(0, 0, 0, 0.88);
+	background-color: wheat;
+	border-top: 5px solid #910202;
+	border-bottom: 5px solid #910202;
+	border-left: 5px solid #910202;
+	border-right: 5px solid #910202;
 }
 
 img{
@@ -94,7 +112,7 @@ img{
 }
 
 .orange{
-	color: #ff8000;
+	color: wheat;
 }
 
 .footer{
@@ -103,7 +121,7 @@ img{
 	bottom: 0;
 	width: 100%;
 	background-color: rgb(0, 0, 0, 0.75);
-	color: white;
+	color: aqua;
 	text-align: center;
 }
 
@@ -117,7 +135,7 @@ img{
 }
 .active 
 {
-   	 background-color: #ff8000;
+   	 background-color: #910202;
 }
 
 h4{
