@@ -1,6 +1,7 @@
 .jumbotron {
-	background-image: url("https://hbcugameday.com/wp-content/uploads/2021/05/hbcu-nfl-draft-FEAT-IMG.jpg");
-	background-size: cover;
+	background-image: url("https://assets.aboutamazon.com/dims4/default/1f1d67a/2147483647/strip/true/crop/3888x2188+0+148/resize/1320x743!/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F31%2F96%2F0ab6f148452e9cf744d9e6a9cf28%2Fistock-92024772-1.jpg");
+	background-size:cover;
+	background-repeat: repeat-y;
 	color: black;
 }
 
