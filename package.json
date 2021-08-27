@@ -1,0 +1,26 @@
+{
+  "name": "espn",
+  "version": "1.0.0",
+  "description": "ESPN API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasasubotic/Chosen-Ones-League.git"
+  },
+  "keywords": [
+    "ESPN",
+    "Fix"
+  ],
+  "author": "Me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sasasubotic/Chosen-Ones-League/issues"
+  },
+  "homepage": "https://github.com/sasasubotic/Chosen-Ones-League#readme",
+  "dependencies": {
+    "espn-fantasy-football-api": "^0.16.1"
+  }
+}
